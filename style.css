@@ -86,14 +86,11 @@ nav ul li a:hover::after{
     0%{
         content: 'Data Scientist'
     }
-    40%{
+    50%{
         content: 'Machine Learning Engineer';
     }
-    80%{
-        content: 'Data Analyst';
-    }
     100%{
-        content: 'Deep Learning Engineer';
+        content: 'Data Analyst';
     }
     
 }
