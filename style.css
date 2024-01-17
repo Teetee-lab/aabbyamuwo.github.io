@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Arial','Helvetica', 'Poppins', sans-serif;
+    font-family: 'Arial','Helvetica', 'Poppins', sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
 html{
@@ -98,9 +98,9 @@ nav ul li a:hover::after{
 
 /* ------------------------about section--------------- */
 #About{
-    background-color: azure;
+    background-color: black;
     padding: 80px 0;
-    color: #080808;
+    color: #fff;
     text-align: justify;
 }
 
@@ -174,7 +174,7 @@ nav ul li a:hover::after{
 /* ------------------------portfolio section--------------- */
 
 #portfolio{
-    background-color: #ababab;
+    background-color: black;
     padding: 50px 0;
 }
 .work-list{
