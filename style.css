@@ -105,18 +105,18 @@ nav ul li a:hover::after{
 }
 
 .row{
-    display: flex;
+    display: grid;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-/*.about-col-1{
-    flex-basis: 35%;
+.about-col-1{
+    flex-basis: 37%;
 }
 .about-col-1 img{
-    width: 100%;
+    width: 50%;
     border-radius: 15px;
-}*/
+}
 
 .about-col-2{
     line-height: 1.8;
