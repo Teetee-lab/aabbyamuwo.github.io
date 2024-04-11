@@ -70,7 +70,7 @@ nav ul li a:hover::after{
 }
 
 .header-text h1{
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 30px;
 }
 
@@ -107,9 +107,8 @@ nav ul li a:hover::after{
 .row{
     display: grid;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 }
-
 .about-col-1{
     flex-basis: 37%;
 }
@@ -117,12 +116,10 @@ nav ul li a:hover::after{
     width: 50%;
     border-radius: 15px;
 }
-
 .about-col-2{
     line-height: 1.8;
     flex-basis: 60%;
 }
-
 .subtitle{
     font-size: 37px;
     font-weight: 650;
@@ -171,12 +168,6 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 
-}
-.certificatesimg{
-    display:flex;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
-    margin-top: 10px;
 }
 /* ------------------------project section--------------- */
 
@@ -287,7 +278,7 @@ nav ul li a:hover::after{
     margin-bottom: 30px;
 }
 .blog-list div h2{
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 450;
     margin-bottom: 15px;
 }
@@ -417,7 +408,7 @@ nav .fa-solid{
         transition: right 0.5s;
     }
     nav ul li{
-        display: block;
+        display: inline-flex;
         margin: 25px;
     }
     nav ul .fa-solid{
@@ -444,6 +435,7 @@ nav .fa-solid{
         font-size: 13px;
         margin-right: 20px;
     }
+    
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
