@@ -66,11 +66,11 @@ nav ul li a:hover::after{
 .header-text{
     color: #fff;
     margin-top: 20%;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .header-text h1{
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 30px;
 }
 
@@ -84,13 +84,13 @@ nav ul li a:hover::after{
 }
 @keyframes animate{
     0%{
-        content: "I'm a data enthusiast";
+        content: "I'm a data science enthusiast";
     }
     50%{
-        content: "I'm an organized and excellent communicator";
+        content: "I'm an excellent communicator";
     }
     100%{
-        content: "I'm a technology and creativity fanatic";
+        content: "I'm an information technology fanatic";
     }
 
 }
@@ -122,6 +122,7 @@ nav ul li a:hover::after{
     line-height: 1.8;
     flex-basis: 60%;
 }
+
 .subtitle{
     font-size: 37px;
     font-weight: 650;
@@ -170,6 +171,12 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 
+}
+.certificatesimg{
+    display:flex;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    margin-top: 10px;
 }
 /* ------------------------project section--------------- */
 
@@ -270,8 +277,8 @@ nav ul li a:hover::after{
 .blog-list div{
     background:cornflowerblue;
     padding: 40px;
-    font-size: 13px;
-    font-weight: 300;
+    font-size: 11px;
+    font-weight: 200;
     border-radius: 10px;
     transition: background 0.5s,transform 0.5s;
 }
@@ -280,8 +287,8 @@ nav ul li a:hover::after{
     margin-bottom: 30px;
 }
 .blog-list div h2{
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 450;
     margin-bottom: 15px;
 }
 .blog-list div a{
@@ -308,7 +315,7 @@ nav ul li a:hover::after{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #ff004f;
+    color: #ababab;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -332,7 +339,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid cornflowerblue;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -341,7 +348,7 @@ nav ul li a:hover::after{
 }
 .btn2{
     display: inline-block;
-    background: #ff004f;
+    background: cornflowerblue;
 }
 
 .contact-right form{
