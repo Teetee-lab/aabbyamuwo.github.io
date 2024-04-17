@@ -84,13 +84,13 @@ nav ul li a:hover::after{
 }
 @keyframes animate{
     0%{
-        content: "I'm a data science enthusiast";
+        content: "I am a data science enthusiast";
     }
     50%{
-        content: "I'm an excellent communicator";
+        content: "I am an excellent communicator";
     }
     100%{
-        content: "I'm an information technology fanatic";
+        content: "I am; an Information technology fanatic";
     }
 
 }
