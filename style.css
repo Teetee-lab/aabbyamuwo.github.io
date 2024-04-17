@@ -90,7 +90,7 @@ nav ul li a:hover::after{
         content: "I am an excellent communicator";
     }
     100%{
-        content: "I am; an Information technology fanatic";
+        content: "I am an Information technology fanatic";
     }
 
 }
