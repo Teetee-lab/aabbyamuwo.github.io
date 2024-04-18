@@ -83,7 +83,7 @@ nav ul li a:hover::after{
     animation: animate infinite 8s;
 }
 @keyframes animate{
-    0%{
+    10%{
         content: "I am a data science enthusiast";
     }
     50%{
