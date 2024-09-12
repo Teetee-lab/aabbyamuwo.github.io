@@ -83,20 +83,14 @@ nav ul li a:hover::after{
     animation: animate infinite 8s;
 }
 @keyframes animate{
-    10%{
-        content: "I am a Data Scientist.";
-    }
-    35%{
-        content: "I am a Software Developer.";
-    }
-    55%{
-        content: "I am a Cloud Infrastructure Ethusiast.";
-    }
-    75%{
-        content: "I am a Financial Analyst.";
+    30%{
+        content: "I am a Data Scientist!";
     }
     100%{
-        content: "Connecting the dot between data and technology.";
+        content: "I am a Software Engineer!";
+    }
+    60%{
+        content: "I Connect the dot between data and technology!";
     }
 
 }
@@ -129,6 +123,9 @@ nav ul li a:hover::after{
 .subtitle{
     font-size: 37px;
     font-weight: 650;
+}
+.emphasis{
+    color:#ff004f
 }
 
 .tab-titles{
