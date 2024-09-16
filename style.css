@@ -172,8 +172,8 @@ nav ul li a:hover::after{
 
 .tab-contents.active-tab{
     display:inline-block;
-    column-count: 4;
-    column-width: 50px;
+    column-count: 2;
+    column-width: 200px;
     column-gap: 50px;
 }
 
@@ -389,7 +389,7 @@ nav .fa-solid{
     display: none;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1000px){
     #header{
         background-image: url(images/phone-background.png);
     }
